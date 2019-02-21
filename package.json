@@ -1,6 +1,6 @@
 {
   "name": "modtcp-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/yurishag/ModbusTCP",
   "description": "Modbus TCP client for NodeJS",
   "main": "index.js",
