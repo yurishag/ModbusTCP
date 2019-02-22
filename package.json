@@ -1,27 +1,26 @@
 {
-  "name": "modtcp-client",
-  "version": "1.0.3",
-  "repository": "https://github.com/yurishag/ModbusTCP",
-  "description": "Modbus TCP client for NodeJS",
-  "main": "index.js",
-  "scripts": {
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "compile": "tsc",
-    "build": "tsc"
-  },
-  "keywords": [
-    "Modtcp",
-    "Node.js",
-    "Modbus"
-  ],
-  "author": "Y. Goorun, D Parfitt",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^11.9.4",
-    "typescript": "^3.3.3"
-  },
-  "dependencies": {
-    "modbus-serial": "^7.5.1"
-  }
+	"name": "modtcp-client",
+	"version": "1.0.4",
+	"repository": "https://github.com/yurishag/ModbusTCP",
+	"description": "Modbus TCP client for NodeJS",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"compile": "tsc",
+		"build": "tsc"
+	},
+	"keywords": [
+		"Modtcp",
+		"Node.js",
+		"Modbus"
+	],
+	"author": "Y. Goorun, D Parfitt",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^11.9.4",
+		"typescript": "^3.3.3"
+	},
+	"dependencies": {
+		"modbus-serial": "^7.5.1"
+	}
 }
